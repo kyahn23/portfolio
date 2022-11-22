@@ -11,11 +11,12 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/kyahn23`,
     // Content of the About Me section
-    about :
-      {
-        desc: `느리더라도 꾸준하게 나아가는 개발자가 되고자 합니다.`,
-        mail: `lucky23@kakao.com`  },
-  
+    // about :
+    //   {
+    //     desc: `느리더라도 꾸준하게 나아가는 개발자가 되고자 합니다.`,
+    //     mail: `lucky23@kakao.com`  },
+    about: `느리더라도 꾸준하게 나아가는 개발자가 되고자 합니다.`,
+    mail: `lucky23@kakao.com`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
