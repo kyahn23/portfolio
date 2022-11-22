@@ -11,7 +11,8 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/kyahn23`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `느리더라도 꾸준하게 나아가는 개발자가 되고자 합니다.`,
+    mail: `lucky23@kakao.com`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -25,12 +26,6 @@ module.exports = {
         description:
           'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
         link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -66,17 +61,17 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), jQuery, React, Java Spring, next.js',
+          'Java Spring, JavaScript (ES6+), jQuery, React, Redux, Next.js',
       },
       {
         name: 'Databases',
         description: 'MySQL, Firebase Realtime/firestore Database',
       },
-      // {
-      //   name: 'Other',
-      //   description:
-      //     'Amazon Web Services (AWS), Firebase',
-      // },
+      {
+        name: 'Deployment',
+        description:
+          'Amazon Web Services (AWS), Firebase, netlify, Vercel',
+      },
     ],
   },
   plugins: [
