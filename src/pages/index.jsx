@@ -13,7 +13,6 @@ import SEO from '../components/seo';
 
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
-  const mail = get(data, 'site.siteMetadata.mail', false);
   const projects = get(data, 'site.siteMetadata.projects', false);
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
@@ -24,7 +23,7 @@ const Index = ({ data }) => {
     <Layout>
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
-      {about && <SectionAbout about={about} mail={mail} />}
+      {about && <SectionAbout about={about} />}
       {projects && projects.length && <SectionProjects projects={projects} />}
       {/* {!noBlog && <SectionBlog posts={posts} />} */}
       {experience && experience.length && (
@@ -44,7 +43,10 @@ export const pageQuery = graphql`
         name
         title
         description
-        about
+        about {
+          desc
+          mail
+        }
         author
         github
         linkedin
