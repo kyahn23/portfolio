@@ -9,7 +9,6 @@ const SectionAbout = ({ about }) => {
         <p>{about.desc}</p>
         <p>
           <a href={`mailto:${about.mail}`}
-            className="icon-button email"
             target="_blank" rel="noopener noreferrer">{about.mail}
           </a>
         </p>
