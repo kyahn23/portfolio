@@ -36,19 +36,29 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: '롯데카드 기프티샷 고도화 프로젝트',
+        description: '2022.05 ~ 2022.08',
+        // link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: '우리카드 법인카드 관리시스템',
+        description: ', 2021.10 ~ 2022.04',
+        // link: 'https://github.com/RyanFitzgerald/devfolio',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: '우리카드 위비멤버스 리뉴얼',
+        description: '2021.03 ~ 2021.08',
+        // link: 'https://github.com/RyanFitzgerald/devfolio',
+      },
+      {
+        name: '화학분야 온라인 전시관 구축',
+        description: '2020.12 ~ 2021.03',
+        link: 'https://k-chemicals.org',
+      },
+      {
+        name: '화학분야 온라인 전시관 구축',
+        description: '2019.10 ~ 2020.03',
+        // link: 'https://k-chemicals.org',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -56,17 +66,17 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), jQuery, React, Java Spring, next.js',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MySQL, Firebase Realtime/firestore Database',
       },
-      {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
-      },
+      // {
+      //   name: 'Other',
+      //   description:
+      //     'Amazon Web Services (AWS), Firebase',
+      // },
     ],
   },
   plugins: [
