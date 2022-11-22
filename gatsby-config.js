@@ -1,19 +1,15 @@
 module.exports = {
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://kyahnportfolio.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'KyuYoung Ahn',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
-    // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    title: `KyuYoung Ahn | portfolio`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `KyuYoung`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
-    // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    github: `https://github.com/kyahn23`,
     // Content of the About Me section
     about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
