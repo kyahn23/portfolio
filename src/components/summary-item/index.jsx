@@ -26,7 +26,7 @@ const SummaryItem = ({ name, description, link = false, internal = false, github
       </h3>
       <p className={classes.description}>{description}</p>
       {tech ? <p className={classes.description}>{tech}</p> : ''}
-      {github ? <p className={`${classes.description} 'hover:underline'`}>github - <a href={github}>{github}</a></p> : ''}
+      {github ? <p className={classes.description}>github - <a className='hover:underline' href={github}>{github}</a></p> : ''}
     </div>
   );
 };
