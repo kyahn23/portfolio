@@ -30,10 +30,10 @@ module.exports = {
       {
         name: '음식주문 키오스크',
         description:
-          '설명 - React, Redux를 적용한 음식주문 키오스크 페이지.',
-          tech: '사용기술 - React.js, Redux, Firebase Authentication, Firebase firestore',
+          '설명 - React, Redux를 적용한 음식주문 키오스크컨셉의 페이지.',
+        tech: '사용기술 - React.js, Redux, Firebase realtime database',
         link: 'https://react-http-b5104.web.app/',
-        github: 'https://github.com/kyahn23/navcafe-clone-react',
+        github: 'https://github.com/kyahn23/food-order',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
