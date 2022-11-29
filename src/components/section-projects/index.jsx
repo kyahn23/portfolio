@@ -4,6 +4,7 @@ import Section from '../section';
 import SummaryItem from '../summary-item';
 
 const SectionProjects = ({ projects }) => {
+  console.log(project)
   if (!projects.length) return null;
 
   return (
