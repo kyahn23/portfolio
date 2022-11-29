@@ -20,16 +20,16 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: '네이버 카페 클론코딩',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'Frontend - React.js, Redux<br/>',
+        link: 'https://cafe-clone-5f4a1.web.app/',
       },
       {
         name: 'ChromeExtensionKit',
         description:
           'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+        link: 'https://react-http-b5104.web.app/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
@@ -41,7 +41,7 @@ module.exports = {
       },
       {
         name: '우리카드 법인카드 관리시스템',
-        description: ', 2021.10 ~ 2022.04',
+        description: '2021.10 ~ 2022.04',
         link: '',
       },
       {
