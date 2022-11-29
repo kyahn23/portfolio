@@ -24,13 +24,14 @@ module.exports = {
         description:
           `설명 - React skill 향상을 위한 클론코딩프로젝트로\ncss외의 모든 부분은 직접구현하였습니다.\n사용기술 - React.js, Redux, Firebase Authentication, Firebase firestore\n`,
         link: 'https://cafe-clone-5f4a1.web.app/',
-        github: 'https://github.com/kyahn23/navcafe-clone-react'
+        github: 'https://github.com/kyahn23/navcafe-clone-react',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: '음식주문 키오스크',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
+          '설명 - React, Redux를 적용한 음식주문 키오스크 페이지.',
         link: 'https://react-http-b5104.web.app/',
+        github: 'https://github.com/kyahn23/navcafe-clone-react',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
