@@ -7,7 +7,7 @@ const classes = {
   description: 'text-md text-gray-600 font-light',
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false, github = false }) => {
+const SummaryItem = ({ name, description, link = false, internal = false, github }) => {
   let linkContent;
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
