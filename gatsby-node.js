@@ -86,6 +86,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       description: String!
       link: String!
       github: String
+      tech: String
     }
 
     type MarkdownRemark implements Node {

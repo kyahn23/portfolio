@@ -7,7 +7,7 @@ const classes = {
   description: 'text-md text-gray-600 font-light',
 };
 
-const SummaryItem = ({ name, description, link = false, internal = false, github }) => {
+const SummaryItem = ({ name, description, link = false, internal = false, github, tech }) => {
   let linkContent;
   if (internal) {
     linkContent = <Link to={link}>{name}</Link>;
@@ -25,7 +25,8 @@ const SummaryItem = ({ name, description, link = false, internal = false, github
         {link ? linkContent : name}
       </h3>
       <p className={classes.description}>{description}</p>
-      {github ? <p className={classes.description}><a href={github}>{ github}</a></p> : ''}
+      {tech ? <p className={classes.description}>{tech}</p> : ''}
+      {github ? <p className={classes.description}>github - <a href={github}>{github}</a></p> : ''}
     </div>
   );
 };
