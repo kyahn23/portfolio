@@ -22,7 +22,7 @@ module.exports = {
       {
         name: '네이버 카페 클론코딩',
         description:
-          'Frontend - React.js, Redux<br/>',
+          '사용기술 - React.js, Redux, Firebase Authentication, Firebase firestore\n',
         link: 'https://cafe-clone-5f4a1.web.app/',
       },
       {
