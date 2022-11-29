@@ -22,8 +22,9 @@ module.exports = {
       {
         name: '네이버 카페 클론코딩',
         description:
-          '사용기술 - React.js, Redux, Firebase Authentication, Firebase firestore\n',
+          '설명 - React skill 향상을 위해 네이버 카페를 클론코딩해보았습니다. css외의 모든 부분은 직접구현하였습니다.\n사용기술 - React.js, Redux, Firebase Authentication, Firebase firestore\n',
         link: 'https://cafe-clone-5f4a1.web.app/',
+        github: 'https://github.com/kyahn23/navcafe-clone-react'
       },
       {
         name: 'ChromeExtensionKit',
